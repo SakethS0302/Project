@@ -17,7 +17,7 @@
   <img width="1920" height="992" alt="image" src="https://github.com/user-attachments/assets/bdd62ed8-3a68-4158-a19a-bb2a715afc2c" />
   <img width="460" height="276" alt="image" src="https://github.com/user-attachments/assets/5cc82563-574b-41a4-8c5d-54a32ba4f9d0" />
 
-* **Applications:**
+* **Applications:(Real World)**
   * *Automated Check & Banking Document Processing*
     * Form Digitization: Financial institutions automatically extract account numbers, phone numbers, and Social Security numbers from hand-filled paper applications.
   * *Automated Exam Scoring & Form Processing*
@@ -34,4 +34,11 @@
   * *Preprocessing & Binarization:* Apply morphological operations (erosion/dilation) to normalize stroke thickness and clean background noise before classification.
 
 * **Alternative Datasets:**
-  * 
+  * *MNIST (Standard Baseline)*
+    * Characteristics - 70,000 clean, centered, grayscale 28 x 28 images of isolated digits (0–9).
+    * Results - High Accuracy(98%-99.5%); Ideal baseline.
+  * *USPS Dataset*
+    * Characteristics - 9,298 low-resolution(16 x 16) scanned digits from envelope mail processed by the US Postal Service.
+    * Results - Moderate Accuracy(90%-95%); Blurrier images test model robustness against low resolution and varied compression artifacts.
+
+---
