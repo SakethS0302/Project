@@ -1,8 +1,6 @@
-# Projects
+# 1. Speech Signal Analysis
 
 ---
-
-## 1. Speech Signal Analysis
 * **Description:** Analysis of audio speech signals in time and frequency domains to extract spectral features and pitch characteristics.
 * **What We Did:**
   * *Sampled the signal:* Loaded a .wav file and sampled it after reading it as a sequence of amplitude values over time.
