@@ -31,4 +31,12 @@
   * *Short-Time Energy:*
     * Acoustic Event & Impact Detection - Identifying sudden physical events, such as gunshots, glass breaking, or mechanical thumps in automated security surveillance.
 
+* **Disadvantages:**
+  * *Sensitivity to Background Noise:* Standard time-domain and frequency-domain analysis struggles in real-world environments with ambient noise.
+  * *Stationarity Assumption:* Traditional Fast Fourier Transforms (FFT) assume the signal is stationary, which fails for dynamic speech signals with rapid transitions.
+
+* **How to fix them:**
+  * *Apply Noise Reduction Pipelines:* Pre-process audio with Wiener Filtering, Bandpass Filtering to clean background noise before analysis.
+  * *Implement Voice Activity Detection(VAD):* Filter out silence and ambient noise blocks before calculating parameters like Short-Time Energy or Zero-Crossing Rate.
+
 ---
