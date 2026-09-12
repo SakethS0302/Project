@@ -17,7 +17,7 @@
   <img width="1920" height="992" alt="image" src="https://github.com/user-attachments/assets/bdd62ed8-3a68-4158-a19a-bb2a715afc2c" />
   <img width="460" height="276" alt="image" src="https://github.com/user-attachments/assets/5cc82563-574b-41a4-8c5d-54a32ba4f9d0" />
 
-* **Applications:(Real World)**
+* **Applications(Real World):**
   * *Automated Check & Banking Document Processing*
     * Form Digitization: Financial institutions automatically extract account numbers, phone numbers, and Social Security numbers from hand-filled paper applications.
   * *Automated Exam Scoring & Form Processing*
