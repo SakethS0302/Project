@@ -36,3 +36,9 @@
   * *Fixed Filter Inflexibility:* Static digital filters (like standard FIR/IIR filters) fail when noise characteristics change over time (e.g., when a patient moves suddenly or changes breathing patterns).
 
 * **How To Fix Them:**
+  * *Use Adaptive Filtering Algorithms:* Implement adaptive filters like Normalized Least Mean Squares (NLMS) or Recursive Least Squares (RLS) which self-adjust their filter coefficients dynamically based on changing noise levels.
+  * *Combine Filtering Pipelines (Hybrid Approach):*
+    * Use a Notch/Median Filter for low-frequency baseline drift.
+    * Use Adaptive filtering for high-frequency muscle noise and powerline interference.
+
+---
