@@ -28,4 +28,11 @@
     * Estimated Heart Rate: 75.0 BPM — (60 seconds ÷ 0.8 s = 75), Confirming the whole pipeline — filtering, peak detection, and rate calculation — is correct.
 
 * **Applications(Real World):**
-  *
+  * *Hospital Diagnostic ECG Machines:* Cleaning raw clinical ECG readings by removing 50/60 Hz powerline interference (from wall outlets) and baseline drift (from patient breathing).
+  * *Telemedicine & Remote Patient Care:* Cleaning digitized cardiac signals prior to data compression and transmission over low-bandwidth wireless networks.
+
+* **Disadvantages:**
+  * *Distortion of Critical Wave Features:* Traditional notch or linear low-pass filters can smooth out the high-frequency peaks of the R-peaks or distort the small P and T waves, leading to inaccurate medical diagnoses.
+  * *Fixed Filter Inflexibility:* Static digital filters (like standard FIR/IIR filters) fail when noise characteristics change over time (e.g., when a patient moves suddenly or changes breathing patterns).
+
+* **How To Fix Them:**
