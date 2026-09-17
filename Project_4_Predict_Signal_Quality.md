@@ -1,7 +1,7 @@
 # 4. Predict Signal Quality
 
 ---
-* **Description:** Focusing on measuring and evaluating communication channel performance under real-world noise and interference conditions.
+* **Description:** Evaluated wireless channel performance under dynamic, real-world noise and interference conditions to predict signal degradation and optimize communication reliability.
 * **What We Did:**
   * Generated and tested 600 signals(150 each) at four known noise severities: SNR = 20 dB (barely noisy), 10 dB, 5 dB, and 0 dB (noise as strong as the signal itself).
   * Extracted 8 DSP features per noisy signal instead of feeding raw samples to the network which changes as noise increases.
